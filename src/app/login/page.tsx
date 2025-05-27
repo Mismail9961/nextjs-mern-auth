@@ -65,6 +65,7 @@ const LoginPage = () => {
         {loading ? "Processing" : "Login"}
       </button>
       <Link href="/signup">Visit SignUp Page</Link>
+      <Link href="/forgotpassword">Forgot password</Link>
     </div>
   );
 };
